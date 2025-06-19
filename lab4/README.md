@@ -60,7 +60,7 @@ This activity introduces a new approach using **AWT-based GUI programming** in J
   double salary = hours * rate;
 - The output is formatted using `String.format()` and displayed in the `TextArea`.
 
-### Graceful Exit Handling
+### 🛑 Graceful Exit Handling
 - Uses WindowAdapter to close the window when the user clicks the “X” button:
   ```java
   frame.addWindowListener(new WindowAdapter() {
