@@ -47,7 +47,7 @@ This activity demonstrates the following **fundamental Java concepts**:
    - Computed daily salary in PHP
 
 ## 🧪 Sample Output
-
+```
 Enter your first name: Grindale
 Enter your last name: Gumapac
 Enter your age: 19
@@ -59,7 +59,7 @@ Employee Information
 Full Name : Grindale Gumapac
 Age : 19 years old
 Daily Salary: PHP 480.00
-
+```
 ## 🔧 Practical Use
 
 This kind of program can be used in:
