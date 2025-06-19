@@ -84,14 +84,14 @@ Enter role code (1-Manager, 2-Supervisor, 3-Staff, 4-Intern): 2
 Employee Information
 ---------------------
 Full Name:              GUMAPAC, GRINDALE
-Age:                    23 years old
-Position:               Supervisor
+Age:                    23 years old     
+Position:               Supervisor       
 Years to Retirement:    42 years
 Daily Salary:           Php 800.00
 Weekly Salary:          Php 4000.00
 Monthly Salary:         Php 16000.00
 Gross Yearly Salary:    Php 192000.00
-Net Yearly Salary:      Php 189500.00
+Net Yearly Salary:      Php 190500.00
 ```
 
 ## 🔧 Practical Use
