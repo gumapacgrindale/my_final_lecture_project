@@ -20,3 +20,26 @@ This activity introduces the following **new Java concepts and practical impleme
       validationMessage = (age < 18) ? "Minors are not allowed" : "Senior Citizens are not allowed";
       return;
   }
+  ```
+
+- **Work Hour Limit**
+  Validates that work hours do not exceed 24 and are greater than 0:
+  ```java
+  if (hoursWorked > 24 || hoursWorked <= 0) {
+      // Rejects invalid input
+      return;
+  }
+  ```
+
+### Role Assignment via switch
+- Accepts numeric input (1–4) and assigns a corresponding role name (e.g., Manager, Supervisor, etc.).
+- Demonstrates usage of the switch statement for decision branching:
+  ```java
+  switch (roleCodeNumber) {
+    case 1: roleCodeName = "Manager"; break;
+    case 2: roleCodeName = "Supervisor"; break;
+    case 3: roleCodeName = "Staff"; break;
+    case 4: roleCodeName = "Intern"; break;
+    default: roleCodeName = "Undefined";
+  }
+  ```
