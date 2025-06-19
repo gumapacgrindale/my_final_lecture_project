@@ -56,9 +56,9 @@ Enter hourly wage: 60
 
 Employee Information
 ---------------------
-Full Name : Grindale Gumapac
-Age : 19 years old
-Daily Salary: PHP 480.00
+Full Name   : Grindale Gumapac
+Age         : 19 years old    
+Daily Salary: PHP 480.00      
 ```
 ## 🔧 Practical Use
 
