@@ -96,4 +96,5 @@ This GUI version provides a more user-friendly way to interact with applications
 - Enter data via forms
 - See instant results without using the command line
 - Get feedback if input is missing or incorrect
+
 It’s a great introduction to event-driven programming and graphical interface design in Java.
