@@ -61,7 +61,7 @@ This activity introduces a new approach using **AWT-based GUI programming** in J
 - The output is formatted using `String.format()` and displayed in the `TextArea`.
 
 ### 🛑 Graceful Exit Handling
-- Uses WindowAdapter to close the window when the user clicks the “X” button:
+- Uses `WindowAdapter` to close the window when the user clicks the “X” button:
   ```java
   frame.addWindowListener(new WindowAdapter() {
     public void windowClosing(WindowEvent winEvent) {
