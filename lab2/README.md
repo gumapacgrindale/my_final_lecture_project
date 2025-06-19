@@ -17,11 +17,9 @@ This activity builds on Lab 1 and introduces the following **new concepts and ca
      ```java
      int yearsToRetirement = Math.abs(65 - age);
      ```
-
 2. **Rounding Numbers**
    - `Math.round()` is used to round the daily salary to the nearest whole number before further calculations.
    - Ensures that weekly, monthly, and yearly salaries are computed from a clean, whole number daily wage.
-
 3. **Salary Calculations**
    - **Weekly Salary**: Daily wage × 5 (assuming 5 working days per week)  
    - **Monthly Salary**: Weekly wage × 4  
@@ -30,7 +28,6 @@ This activity builds on Lab 1 and introduces the following **new concepts and ca
      ```java
      netYearlyWage = grossYearlyWage - (grossYearlyWage * 0.32) - 1500;
      ```
-
 4. **String Formatting**
    - Names are displayed in uppercase using `toUpperCase()` for a more professional format.
    - Monetary values are formatted using `System.out.printf()` for 2 decimal places.
