@@ -31,9 +31,9 @@ This activity introduces the following **new Java concepts and practical impleme
   }
   ```
 
-### Role Assignment via switch
+### Role Assignment via `switch`
 - Accepts numeric input (1–4) and assigns a corresponding role name (e.g., Manager, Supervisor, etc.).
-- Demonstrates usage of the switch statement for decision branching:
+- Demonstrates usage of the `switch` statement for decision branching:
   ```java
   switch (roleCodeNumber) {
     case 1: roleCodeName = "Manager"; break;
