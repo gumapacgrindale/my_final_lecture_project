@@ -36,13 +36,11 @@ This activity builds on Lab 1 and introduces the following **new concepts and ca
    - Monetary values are formatted using `System.out.printf()` for 2 decimal places.
 
 ## 💻 How It Works (Step-by-Step)
-
 1. Prompts the user for:
    - First and last name
    - Age
    - Hours worked
    - Hourly wage
-
 2. Performs calculations for:
    - Daily, weekly, monthly, gross yearly, and net yearly salaries
    - Years remaining before retirement
