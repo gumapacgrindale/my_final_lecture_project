@@ -76,7 +76,6 @@ This activity introduces a new approach using **AWT-based GUI programming** in J
   - Age
   - Hours worked
   - Hourly rate
-
 2. When the Submit button is clicked:
   - The app validates all fields
   - Parses input values
