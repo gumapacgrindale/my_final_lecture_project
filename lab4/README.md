@@ -70,12 +70,14 @@ This activity introduces a new approach using **AWT-based GUI programming** in J
   });
 
 ## 💻 How It Works (Step-by-Step)
+
 1. The user inputs their:
   - First name
   - Last name
   - Age
   - Hours worked
   - Hourly rate
+
 2. When the Submit button is clicked:
   - The app validates all fields
   - Parses input values
