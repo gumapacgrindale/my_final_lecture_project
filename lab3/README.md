@@ -59,17 +59,12 @@ This activity introduces the following **new Java concepts and practical impleme
 ## 💻 How It Works (Step-by-Step)
 
 1. Accepts user input for personal info, hours worked, wage, and role code.
-
 2. Validates:
     - Age: Must be 18 to 64.
     - Work hours: Must be between 1 and 24.
-
 3. Uses a switch to determine the job title.
-
 4. Calculates various salary metrics: daily, weekly, monthly, gross yearly, and net yearly.
-
 5. Applies tax only if salary exceeds a defined threshold.
-
 6. Displays all results in an organized and professional format.
 
 ## 🧪 Sample Output
