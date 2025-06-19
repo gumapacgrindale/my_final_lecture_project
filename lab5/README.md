@@ -60,13 +60,18 @@ This activity introduces advanced GUI techniques using **AWT** and adds logic fo
 - Custom methods like `customizedTextBold()` and `customizeCheckbox()` promote code reusability.
 
 ## 💻 How It Works (Step-by-Step)
+
 1. When the app starts, it displays the first question and its four choices.
+
 2. The user selects an answer and clicks Next.
+
 3. If no choice is selected, an error message appears.
+
 4. If a choice is selected:
    - The app checks the answer
    - Updates the score
    - Loads the next question
+
 5. After the last question, it displays the final score and disables all interaction.
 
 ## 🧪 Sample Output (GUI)
