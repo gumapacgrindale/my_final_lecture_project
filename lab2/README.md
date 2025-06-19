@@ -20,6 +20,7 @@ This activity builds on Lab 1 and introduces the following **new concepts and ca
    - `Math.round()` is used to round the daily salary to the nearest whole number before further calculations.
    - Ensures that weekly, monthly, and yearly salaries are computed from a clean, whole number daily wage.
 
+
 3. **Salary Calculations**
    - **Weekly Salary**: Daily wage × 5 (assuming 5 working days per week)  
    - **Monthly Salary**: Weekly wage × 4  
