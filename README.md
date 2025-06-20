@@ -32,6 +32,7 @@ Each program can be compiled and run using **Java JDK** on your terminal or any 
 3. Compile the Java file:
    ```bash
    javac LabActivity1EmployeeInformationSystem.java
+   ```
 
 4. Run the program:
   ```bash
