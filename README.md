@@ -200,8 +200,6 @@ This lab upgrades the previous employee system into a **Graphical User Interface
 ### 🧪 Sample Output (GUI):
 
 ```
-Copy
-Edit
 Full Name: Juan Dela Cruz
 Age: 21 years old
 Daily Salary: PHP 640.00
