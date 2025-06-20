@@ -13,7 +13,8 @@ This activity builds on Lab 1 and introduces the following **new concepts and ca
 
 1. **Math.abs()**
    - Used to compute the absolute value of the difference between the employee's age and the retirement age (65).
-   - Example:  
+   - Example:
+     
      ```java
      int yearsToRetirement = Math.abs(65 - age);
      ```
@@ -26,7 +27,8 @@ This activity builds on Lab 1 and introduces the following **new concepts and ca
    - **Weekly Salary**: Daily wage × 5 (assuming 5 working days per week)  
    - **Monthly Salary**: Weekly wage × 4  
    - **Gross Yearly Salary**: Monthly wage × 12  
-   - **Net Yearly Salary**: Deducts 32% tax and a ₱1,500 fixed deduction from the gross salary  
+   - **Net Yearly Salary**: Deducts 32% tax and a ₱1,500 fixed deduction from the gross salary
+     
      ```java
      netYearlyWage = grossYearlyWage - (grossYearlyWage * 0.32) - 1500;
      ```
