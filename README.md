@@ -55,4 +55,5 @@ This compilation reflects my learning progress throughout the semester in **Comp
 ✨ I used `**ChatGPT by OpenAI**` to help me describe, document, and organize each activity in the best possible format. All code was written by me, and ChatGPT helped ensure that the explanations are well-structured, professional, and easy to understand for readers and evaluators.
 
 Thank you for viewing my work! ⭐
+
 — **Grindale Gumapac**
