@@ -201,14 +201,14 @@ Dynamic GUI Output: Displays results in a non-editable text area after calculati
 - Full name, age, and daily salary in formatted PHP output
 
 🧪 Sample Output (GUI):
-	yaml
-	```
-	Copy
-	Edit
-	Full Name: Juan Dela Cruz
-	Age: 21 years old
-	Daily Salary: PHP 640.00
-	```
+yaml
+```
+Copy
+Edit
+Full Name: Juan Dela Cruz
+Age: 21 years old
+Daily Salary: PHP 640.00
+```	
 🔧 Real-World Use:
 Introduces form-based interfaces found in real business software. Demonstrates how GUI input/output works, foundational for inventory apps, POS systems, or HR tools.
 #
