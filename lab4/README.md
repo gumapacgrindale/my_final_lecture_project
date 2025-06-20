@@ -24,9 +24,9 @@ This activity introduces a new approach using **AWT-based GUI programming** in J
   - `GridLayout` for form fields and outputs
   - `FlowLayout` for the submit button
 
-  ```java
-  Panel pnlForm = new Panel(new GridLayout(5, 2));
-  ```
+    ```java
+    Panel pnlForm = new Panel(new GridLayout(5, 2));
+    ```
 
 - **Labels, TextFields, and Button**
   UI components to accept and label inputs:
