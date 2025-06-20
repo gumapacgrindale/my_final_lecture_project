@@ -275,5 +275,67 @@ This lab showcases a **To-Do List Manager** built using **Java Swing**, demonstr
 | Grocery List   | Buy eggs, milk, and rice  | Not Started |
 +----------------+---------------------------+-------------+
 ```
+#
 ### 🔧 Real-World Use:
 Simulates core features of productivity apps like Trello, Notion, or task schedulers. Teaches the backbone of **data entry**, **GUI form handling**, and **visual record display**, essential in many business apps.
+### 🧾 Final Lab Project Summary: Advanced Calculator
+This project is a feature-rich calculator application built using Java Swing, showcasing advanced parsing, expression evaluation, and GUI design. It significantly expands beyond standard arithmetic, aiming for a real-world, precision-capable calculator experience.
+
+### 🔑 Key Concepts & Features:
+- Java Swing GUI:
+	- Uses `JFrame`, `JTextField`, custom-styled `JButtons`, and `JPanel` for layout
+	- Rounded buttons, clean UI, and dual-display (expression and result)
+- BigDecimal Precision:
+	- All calculations use `BigDecimal` for accurate handling of decimal numbers
+- Expression Parsing:
+	- Converts expressions into tokens using custom logic
+	- Implements operator precedence (PEMDAS), exponentiation (^), percentage, and square root (√)
+
+- Custom Evaluation Engine:
+	- Parses and evaluates expressions using stacks
+	- Handles unary operations (like `√`, `-`, `%`) and binary operations (`+`, `-`, `*`, `/`, ^)
+- Live Result Display:
+	- While typing, the calculator shows the real-time computed result
+- Clear (`C`) and Delete (`⌫`) Functionality
+
+### 🔧 Real-World Use:
+- Mimics the behavior of scientific calculators and calculator apps found on smartphones or desktops. This demonstrates knowledge in:
+- GUI/UX design
+- Mathematical expression handling
+- Stack-based evaluation
+- Real-time computing
+
+### ⚠️ Limitations:
+- No support for parentheses ()
+- Doesn't handle malformed input robustly (e.g., 5++5)
+- Doesn’t show detailed error messages (e.g., division by zero)
+- Only supports a linear expression, no history or memory feature
+#
+### 🧾 Midterm Lab Exam Summary: IT Ticket System (Console-Based)
+This special activity demonstrates a **ticketing system** where a user can manage support tickets using a **text-based menu**. It combines everything learned from previous labs — input/output, conditional logic, and salary-like record management — but adds **arrays and looping constructs** to support real-world functionality.
+
+### 🔑 Key Concepts Used:
+- Menu-Driven Program using `do-while` loop and `switch` statement
+- Arrays to store multiple ticket entries (`String[][] ticketList`)
+- Input Handling via `Scanner`
+- Modular Methods: Separate functions for adding, updating, showing, and reporting tickets
+- Looping and Validation to ensure clean data flow and logic
+
+### 🧩 Ticket Structure:
+- Each ticket stores:
+- Issue Description
+- Urgency Level (Low / Medium / High)
+- Status (Default: Pending; updatable to In Progress or Resolved)
+
+### 🔧 Real-World Use:
+This mimics a basic help desk system, introducing:
+- Record-based data handling (arrays)
+- Updating entries with input validation
+- Report generation logic
+
+### ⚠️ Limitations:
+- Maximum of 5 tickets only (due to static array)
+- No persistent data (all input is lost after exit)
+- No real-time filtering or sorting
+- Input is not very robust (e.g., no trimming or retry loop on invalid input)
+
