@@ -17,6 +17,7 @@ This activity introduces a new approach using **AWT-based GUI programming** in J
   The main application window that holds all components.
   ```java
   Frame frame = new Frame("Laboratory Activity 4");
+  ```
 
 - **Panel & Layouts**
   Used to organize components inside the frame.
@@ -24,6 +25,7 @@ This activity introduces a new approach using **AWT-based GUI programming** in J
   - `FlowLayout` for the submit button
   ```java
   Panel pnlForm = new Panel(new GridLayout(5, 2));
+  ```
 
 - **Labels, TextFields, and Button**
   UI components to accept and label inputs:
@@ -31,6 +33,7 @@ This activity introduces a new approach using **AWT-based GUI programming** in J
   new Label("First Name");
   new TextField();
   new Button("Submit");
+  ```
 
 - **TextArea**
   Displays multiline output and error messages to the user.
@@ -46,6 +49,7 @@ This activity introduces a new approach using **AWT-based GUI programming** in J
           // logic here...
       }
   });
+  ```
 
 ### 🧪 Input Validation
 - Checks if all text fields are filled.
@@ -58,6 +62,7 @@ This activity introduces a new approach using **AWT-based GUI programming** in J
 - Once all inputs are validated, the daily salary is computed using:
   ```java
   double salary = hours * rate;
+  ```
 - The output is formatted using `String.format()` and displayed in the `TextArea`.
 
 ### 🛑 Graceful Exit Handling
@@ -68,6 +73,7 @@ This activity introduces a new approach using **AWT-based GUI programming** in J
         frame.dispose();
       }
   });
+  ```
 
 ## 💻 How It Works (Step-by-Step)
 
