@@ -22,6 +22,7 @@ This activity introduces advanced GUI techniques using **AWT** and adds logic fo
 ### 🎯 Checkbox Grouping with `CheckboxGroup`
 
 - Groups all multiple-choice options so only one can be selected at a time.
+
   ```java
   optionsGroup = new CheckboxGroup();
   options[i] = new Checkbox("", optionsGroup, false);
@@ -33,6 +34,7 @@ This activity introduces advanced GUI techniques using **AWT** and adds logic fo
   - Score incrementing
   - Moving to the next question or showing final results
 - All logic is placed inside an `ActionListener`:
+
   ```java
   btnNext.addActionListener(new ActionListener() {
     public void actionPerformed(ActionEvent e) {
@@ -43,6 +45,7 @@ This activity introduces advanced GUI techniques using **AWT** and adds logic fo
   
 ### 🧮 Score Calculation
 - A global `score` variable is incremented only when the user selects the correct answer.
+
   ```java
   if (selected.getLabel().equals(correctAnswers[currentQuestion])) {
     score++;
@@ -53,6 +56,7 @@ This activity introduces advanced GUI techniques using **AWT** and adds logic fo
 - When all questions are answered:
   - Displays the final score using `lblQuestion`
   - Disables all checkboxes and the `Next` button to prevent further interaction
+ 
   ```java
   showResult();
   ```
