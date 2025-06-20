@@ -21,10 +21,10 @@ This activity introduces the **Java Swing library**, which allows the creation o
   - **Main Viewer Window** (`frameViewer`) – displays tasks and a button to open the form
   - **Form Window** (`frameForm`) – provides inputs for task creation
   
-  ```java
-  frameViewer = new JFrame("To-Do List Viewer");
-  frameForm = new JFrame("Add New Task");
-  ```
+    ```java
+    frameViewer = new JFrame("To-Do List Viewer");
+    frameForm = new JFrame("Add New Task");
+    ```
 
 ### 🧾 `JTable` with `DefaultTableModel`
 - Displays the list of tasks in a table with three columns:
@@ -32,10 +32,10 @@ This activity introduces the **Java Swing library**, which allows the creation o
   - Task Description
   - Status
   
-  ```java
-  tableModel = new DefaultTableModel(columnNames, 0);
-  table = new JTable(tableModel);
-  ```
+    ```java
+    tableModel = new DefaultTableModel(columnNames, 0);
+    table = new JTable(tableModel);
+    ```
 
 ### ✍️ Swing Form Components
 - `JTextField` for Task Name input
