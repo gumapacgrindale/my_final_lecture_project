@@ -317,7 +317,7 @@ This special activity demonstrates a **ticketing system** where a user can manag
 - Looping and Validation to ensure clean data flow and logic
 
 ### 🧩 Ticket Structure:
-- Each ticket stores:
+Each ticket stores:
 - Issue Description
 - Urgency Level (Low / Medium / High)
 - Status (Default: Pending; updatable to In Progress or Resolved)
