@@ -23,7 +23,7 @@ This activity introduces a new approach using **AWT-based GUI programming** in J
   Used to organize components inside the frame.
   - `GridLayout` for form fields and outputs
   - `FlowLayout` for the submit button
-    
+
   ```java
   Panel pnlForm = new Panel(new GridLayout(5, 2));
   ```
