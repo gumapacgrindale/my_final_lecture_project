@@ -28,7 +28,9 @@ Each program can be compiled and run using **Java JDK** on your terminal or any 
 
 ### 📦 For Console-based Programs (Lab 1-3, Midterm, Project):
 1. Open your terminal or IDE.
+
 2. Navigate to the folder (e.g., `cd lab1`)
+
 3. Compile the Java file:
    ```bash
    javac LabActivity1EmployeeInformationSystem.java
@@ -42,6 +44,7 @@ Each program can be compiled and run using **Java JDK** on your terminal or any 
 ### 🖼️ For GUI-based Programs (Lab 4-6, Calculator):
 
 1. Follow the same steps as above.
+
 2. Make sure your screen allows pop-up windows (GUI will launch).
 
 ☑️ No external libraries required. All programs run using Java SE (Standard Edition).
