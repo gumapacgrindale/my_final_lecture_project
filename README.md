@@ -44,7 +44,7 @@ Each program can be compiled and run using **Java JDK** on your terminal or any 
 1. Follow the same steps as above.
 2. Make sure your screen allows pop-up windows (GUI will launch).
 
-* ☑️ No external libraries required. All programs run using Java SE (Standard Edition).
+☑️ No external libraries required. All programs run using Java SE (Standard Edition).
 
 ## 🙋‍♂️ About This Repository
 This compilation reflects my learning progress throughout the semester in **Computer Programming 2 using Java**. It shows:
