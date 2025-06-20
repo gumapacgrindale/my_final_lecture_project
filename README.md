@@ -85,7 +85,7 @@ Thank you for viewing my work! ⭐
 <br>
 <br>
 
-#
+# Compacted Description
 ### 🧾 Lab Activity 1 Summary
 This Java console application simulates a **basic employee information system**. It prompts the user to input their personal details and work hours, then calculates their **daily salary**.
 
