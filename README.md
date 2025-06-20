@@ -87,19 +87,19 @@ Thank you for viewing my work! ⭐
 
 #
 ### 🧾 Lab Activity 1 Summary
-This Java console application simulates a basic employee information system. It prompts the user to input their personal details and work hours, then calculates their daily salary.
+This Java console application simulates a **basic employee information system**. It prompts the user to input their personal details and work hours, then calculates their **daily salary**.
 
 ### 🔑 Key Concepts:
-- Scanner for user input
-- Data types: String, int, double
+- `Scanner` for user input
+- Data types: `String`, `int`, `double`
 - Basic arithmetic and salary computation
-- System.out.print and System.out.printf for formatted output
+- `System.out.print` and `System.out.printf` for formatted output
 
 ### ⚙️ Process:
 
 1. User inputs: name, age, hours worked, hourly wage
 
-2. Program computes: dailyWage = hoursWorked * hourlyWage
+2. Program computes: `dailyWage = hoursWorked * hourlyWage`
 
 3. Output: Full name, age, and daily salary in PHP (formatted)
 
@@ -110,11 +110,11 @@ Displays formatted employee details and computed salary.
 Useful for small payroll calculations, academic practice, or as a basic payroll component in larger systems.
 #
 ### 🧾 Lab Activity 2 Summary
-This program builds upon Lab 1 by adding more detailed salary computations and an estimate of years left until retirement. It calculates daily, weekly, monthly, gross yearly, and net yearly wages.
+This program builds upon Lab 1 by adding **more detailed salary computations** and an estimate of **years left until retirement**. It calculates daily, weekly, monthly, gross yearly, and net yearly wages.
 
 🔑 Key Concepts:
 - Reuse of inputs: name, age, hours worked, hourly rate
-- Math functions: Math.abs() and Math.round()
+- Math functions: `Math.abs()` and `Math.round()`
 - Extended calculations (weekly × 5, monthly × 4, yearly × 12)
 - Net salary computation with tax and fixed deduction
 
@@ -139,4 +139,37 @@ Displays full name (in uppercase), age, years to retirement, and a breakdown of 
 
 🔧 Real-World Use:
 Ideal for simulations of basic payroll systems that estimate yearly earnings and handle tax deductions.
+#
+### 🧾 Lab Activity 3 Summary
+This program enhances the Employee Information System by introducing **input validation** and **role-based categorization** using **conditional statements** like `if-else` and `switch`.
+
+🔑 Key Concepts:
+- Input validation using if-else (e.g., age limits and hours worked restrictions)
+- `return` used to exit the program early if invalid input is detected
+- `switch` statement to map numeric role codes (1-4) to role names
+- Extended salary calculations reused from previous labs
+
+Tax logic with `if-else` based on income threshold
+
+⚙️ Process:
+
+1. User inputs: name, age, hours worked, hourly wage, and role code
+
+2. Validates:
+	- Age must be between 18 and 64
+	- Hours worked must be between 1 and 24
+
+3. Maps role code to position (e.g., 1 = Manager, 2 = Supervisor, etc.)
+
+4. Calculates:
+	- Daily, weekly, monthly, gross, and net yearly salary
+	- Applies 32% tax if gross income > ₱250,000
+
+5. Displays all info with formatted output
+
+🧪 Sample Output:
+Shows full name, position, age, years to retirement, and a detailed salary breakdown.
+
+🔧 Real-World Use:
+Simulates HR systems where inputs are validated and roles influence employment records. Introduces logic structure for filtering and controlling program flow.
 #
