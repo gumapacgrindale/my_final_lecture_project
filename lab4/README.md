@@ -82,18 +82,18 @@ This activity introduces a new approach using **AWT-based GUI programming** in J
 ## 💻 How It Works (Step-by-Step)
 
 1. The user inputs their:
-  - First name
-  - Last name
-  - Age
-  - Hours worked
-  - Hourly rate
+    - First name
+    - Last name
+    - Age
+    - Hours worked
+    - Hourly rate
 
 2. When the Submit button is clicked:
-  - The app validates all fields
-  - Parses input values
-  - Calculates the salary if inputs are valid
-  - Displays results in the output box
-  - Displays an error message if any input is invalid or missing
+    - The app validates all fields
+    - Parses input values
+    - Calculates the salary if inputs are valid
+    - Displays results in the output box
+    - Displays an error message if any input is invalid or missing
 
 ## 🧪 Sample Output
 ```
