@@ -288,7 +288,7 @@ This project is a feature-rich calculator application built using Java Swing, sh
 
 - Custom Evaluation Engine:
 	- Parses and evaluates expressions using stacks
-	- Handles unary operations (like `√`, `-`, `%`) and binary operations (`+`, `-`, `*`, `/`, ^)
+	- Handles unary operations (like `√`, `-`, `%`) and binary operations (`+`, `-`, `*`, `/`, `^`)
 - Live Result Display:
 	- While typing, the calculator shows the real-time computed result
 - Clear (`C`) and Delete (`⌫`) Functionality
