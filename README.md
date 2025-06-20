@@ -37,9 +37,9 @@ Each program can be compiled and run using **Java JDK** on your terminal or any 
    ```
 
 4. Run the program:
-  ```bash
-  javac LabActivity1EmployeeInformationSystem.java
-  ```
+   ```bash
+   javac LabActivity1EmployeeInformationSystem.java
+   ```
 
 ### 🖼️ For GUI-based Programs (Lab 4-6, Calculator):
 
