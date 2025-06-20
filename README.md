@@ -50,7 +50,7 @@ Each program can be compiled and run using **Java JDK** on your terminal or any 
 ☑️ No external libraries required. All programs run using Java SE (Standard Edition).
 
 ## 🙋‍♂️ About This Repository
-This compilation reflects my learning progress throughout the semester in **Computer Programming 2 using Java**. It shows:
+This compilation reflects my learning progress throughout the second semester in **Computer Programming 2 using Java**. It shows:
 * My ability to work with both console-based and graphical user interface applications
 * How I structure programs using methods, validation, arrays, loops, and OOP principles
 * How I document and organize code professionally using Markdown
@@ -172,4 +172,74 @@ Shows full name, position, age, years to retirement, and a detailed salary break
 
 🔧 Real-World Use:
 Simulates HR systems where inputs are validated and roles influence employment records. Introduces logic structure for filtering and controlling program flow.
+#
+###🧾 Lab Activity 4 Summary
+This lab upgrades the previous employee system into a **Graphical User Interface (GUI)** using Java **AWT (Abstract Window Toolkit)**. It allows users to input employee data via text fields and shows results in a text area.
+
+🔑 Key Concepts:
+Java AWT GUI: Uses components like `Frame`, `Panel`, `Label`, `TextField`, `TextArea`, and `Button`
+
+Event Handling: `ActionListener` detects when the user clicks "Submit" and triggers computations
+
+Input validation: Ensures all form fields are filled and checks for correct data types (e.g., `Integer.parseInt()` and `Double.parseDouble()`)
+
+Dynamic GUI Output: Displays results in a non-editable text area after calculations
+
+⚙️ Process:
+
+1. GUI form collects:
+	- First name, last name, age, hours worked, hourly rate
+
+2. Validates:
+- All fields are filled
+- Age is a valid integer
+- Hours and rate are valid numbers
+
+3. Computes salary: `hours * rate`
+
+4. Displays:
+- Full name, age, and daily salary in formatted PHP output
+
+🧪 Sample Output (GUI):
+	yaml
+	```
+	Copy
+	Edit
+	Full Name: Juan Dela Cruz
+	Age: 21 years old
+	Daily Salary: PHP 640.00
+	```
+🔧 Real-World Use:
+Introduces form-based interfaces found in real business software. Demonstrates how GUI input/output works, foundational for inventory apps, POS systems, or HR tools.
+#
+###🧾 Lab Activity 5 Summary
+This activity demonstrates the creation of an interactive Quiz Application using Java AWT, where users answer multiple-choice questions through a GUI interface.
+
+🔑 Key Concepts:
+- GUI Components: Uses `Frame`, `Label`, `Checkbox`, `CheckboxGroup`, and `Button` to build an interactive quiz layout
+- Event Handling: `ActionListener` processes user selections and manages navigation between questions
+- Array Usage:
+	- Stores questions, choices, and correct answers in arrays
+	- Tracks current question index and score using static variables
+- Dynamic UI Update:
+	- Each time the user clicks "Next", the next question and choices are loaded dynamically
+- Result Summary: Displays a final score after all questions are answered
+
+⚙️ Process:
+
+1. App loads and shows the **first question** with four multiple-choice answers
+
+2. User selects an option and clicks **Next**
+
+3. System checks if the answer is correct and updates the score
+
+4. Moves to the next question or shows the final result after the last question
+
+🧪 Sample Output (Final Result):
+csharp
+```
+Quiz Completed! Your Score: 2 out of 3
+```
+🔧 Real-World Use:
+Represents the logic used in e-learning systems, review centers, and online assessments. Combines user interaction with logical flow control, input validation, and result computation in a GUI environment.
 #
