@@ -25,6 +25,7 @@ This activity introduces advanced GUI techniques using **AWT** and adds logic fo
   ```java
   optionsGroup = new CheckboxGroup();
   options[i] = new Checkbox("", optionsGroup, false);
+  ```
 
 ### 🔄 Interactive Navigation & Event-Driven Logic
 - A **Next** button triggers:
@@ -38,6 +39,7 @@ This activity introduces advanced GUI techniques using **AWT** and adds logic fo
         // validate answer and move forward
       }
   });
+  ```
   
 ### 🧮 Score Calculation
 - A global `score` variable is incremented only when the user selects the correct answer.
@@ -45,6 +47,7 @@ This activity introduces advanced GUI techniques using **AWT** and adds logic fo
   if (selected.getLabel().equals(correctAnswers[currentQuestion])) {
     score++;
   }
+  ```
 
 ### 🧾 Result Display and Component Disabling
 - When all questions are answered:
@@ -52,6 +55,7 @@ This activity introduces advanced GUI techniques using **AWT** and adds logic fo
   - Disables all checkboxes and the `Next` button to prevent further interaction
   ```java
   showResult();
+  ```
 
 ### 🎨 GUI Styling and Customization
 - Components are styled using:
