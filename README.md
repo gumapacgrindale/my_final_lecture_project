@@ -44,3 +44,15 @@ Each program can be compiled and run using **Java JDK** on your terminal or any 
 2. Make sure your screen allows pop-up windows (GUI will launch).
 
 * ☑️ No external libraries required. All programs run using Java SE (Standard Edition).
+
+## 🙋‍♂️ About This Repository
+This compilation reflects my learning progress throughout the semester in **Computer Programming 2 using Java**. It shows:
+* My ability to work with both console-based and graphical user interface applications
+* How I structure programs using methods, validation, arrays, loops, and OOP principles
+* How I document and organize code professionally using Markdown
+
+## 📢 PS: A Note from the Novice Developer (ME)
+✨ I used ChatGPT by OpenAI to help me describe, document, and organize each activity in the best possible format. All code was written by me, and ChatGPT helped ensure that the explanations are well-structured, professional, and easy to understand for readers and evaluators.
+
+Thank you for viewing my work! ⭐
+— **Grindale Gumapac**
