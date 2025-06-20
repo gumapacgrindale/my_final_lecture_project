@@ -270,9 +270,9 @@ This lab showcases a **To-Do List Manager** built using **Java Swing**, demonstr
 | Grocery List   | Buy eggs, milk, and rice  | Not Started |
 +----------------+---------------------------+-------------+
 ```
-#
 ### 🔧 Real-World Use:
 Simulates core features of productivity apps like Trello, Notion, or task schedulers. Teaches the backbone of **data entry**, **GUI form handling**, and **visual record display**, essential in many business apps.
+#
 ### 🧾 Final Lab Project Summary: Advanced Calculator
 This project is a feature-rich calculator application built using Java Swing, showcasing advanced parsing, expression evaluation, and GUI design. It significantly expands beyond standard arithmetic, aiming for a real-world, precision-capable calculator experience.
 
