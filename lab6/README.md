@@ -79,14 +79,14 @@ This activity introduces the **Java Swing library**, which allows the creation o
 1. The program opens the To-Do List Viewer window with a button labeled “Add Task.”
 
 2. When clicked, a form window opens where users can enter:
-- Task Name
-- Task Description
-- Status (Not Started, Ongoing, Completed)
+  - Task Name
+  - Task Description
+  - Status (Not Started, Ongoing, Completed)
 
 3. When Save Task is clicked:
-- The input is validated
-- The task is added to the table in the viewer window
-- The form window closes
+  - The input is validated
+  - The task is added to the table in the viewer window
+  - The form window closes
 
 4. Users can repeat the process to add more tasks.
 
