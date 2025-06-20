@@ -188,14 +188,14 @@ This lab upgrades the previous employee system into a **Graphical User Interface
 	- First name, last name, age, hours worked, hourly rate
 
 2. Validates:
-- All fields are filled
-- Age is a valid integer
-- Hours and rate are valid numbers
+	- All fields are filled
+	- Age is a valid integer
+	- Hours and rate are valid numbers
 
 3. Computes salary: `hours * rate`
 
 4. Displays:
-- Full name, age, and daily salary in formatted PHP output
+	- Full name, age, and daily salary in formatted PHP output
 
 ### 🧪 Sample Output (GUI):
 
