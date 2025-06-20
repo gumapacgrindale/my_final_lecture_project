@@ -50,14 +50,13 @@ This activity introduces the following **new Java concepts and practical impleme
   - If gross yearly salary exceeds ₱250,000, a 32% tax is applied.
   - Otherwise, no tax is deducted.
 
-
-  ```java
-  if (grossYearlyWage > 250000) {
-    tax = grossYearlyWage * 0.32;
-  } else {
-      tax = 0;
-  }
-  ```
+    ```java
+    if (grossYearlyWage > 250000) {
+      tax = grossYearlyWage * 0.32;
+    } else {
+        tax = 0;
+    }
+    ```
 
 ## 💻 How It Works (Step-by-Step)
 
