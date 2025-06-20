@@ -27,40 +27,45 @@ This project integrates core Java programming fundamentals:
 
 ### 📥 Scanner for Input
 - Uses `Scanner` to receive real-time inputs from the user through the console.
-      ```java
-      Scanner input = new Scanner(System.in);
-      ```
+
+```java
+Scanner input = new Scanner(System.in);
+```
 
 ### 🔁 Looping with `do-while`
 - Keeps the main program running until the user explicitly chooses to exit
-      ```java
-      do {
-       // Show menu and handle options
-      } while (userOption != 5);
-      ```
+
+```java
+do {
+// Show menu and handle options
+} while (userOption != 5);
+```
 
 ### 🧩 Conditional Logic
 - `switch-case` and `if-else` statements are used for menu navigation and validation.
-      ```java
-      switch (userOption) {
-        case 1: addTicket(); break;
-        // ...
-      }
-      ```
+
+```java
+switch (userOption) {
+case 1: addTicket(); break;
+// ...
+}
+```
 
 ### 📦 2D Array for Data Storage
 - Stores each ticket in a 2D `String[][]` array with columns for **issue** **description**, **urgency**, and **status**.
-      ```java
-      static String[][] ticketList = new String[5][3];
-      ```
+
+```java
+static String[][] ticketList = new String[5][3];
+```
 
 ### 🔃 Iterative Display with `for` Loop
 - Loops are used to print, search, and count tickets dynamically.
-      ```java
-      for(int i = 0; i < ticketCount; i++) {
-        System.out.println(...);
-      }
-      ```
+
+```java
+for(int i = 0; i < ticketCount; i++) {
+      System.out.println(...);
+}
+```
 
 ### ✅ Input Validation
 - Ensures valid menu choices, ticket numbers, and status options are enforced before executing logic.
