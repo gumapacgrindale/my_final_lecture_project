@@ -62,6 +62,7 @@ This activity introduces a new approach using **AWT-based GUI programming** in J
 
 ### 📊 Salary Calculation
 - Once all inputs are validated, the daily salary is computed using:
+
   ```java
   double salary = hours * rate;
   ```
@@ -69,6 +70,7 @@ This activity introduces a new approach using **AWT-based GUI programming** in J
 
 ### 🛑 Graceful Exit Handling
 - Uses `WindowAdapter` to close the window when the user clicks the “X” button:
+
   ```java
   frame.addWindowListener(new WindowAdapter() {
     public void windowClosing(WindowEvent winEvent) {
