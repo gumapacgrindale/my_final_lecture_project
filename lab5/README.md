@@ -57,9 +57,9 @@ This activity introduces advanced GUI techniques using **AWT** and adds logic fo
   - Displays the final score using `lblQuestion`
   - Disables all checkboxes and the `Next` button to prevent further interaction
  
-  ```java
-  showResult();
-  ```
+    ```java
+    showResult();
+    ```
 
 ### 🎨 GUI Styling and Customization
 - Components are styled using:
