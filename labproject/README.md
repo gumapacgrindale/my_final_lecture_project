@@ -68,8 +68,8 @@ This project applies several core and advanced Java concepts:
 
 ### ⚠️ Limitations
 Despite being robust, the program has a few known limitations:
-- ❌ No Parentheses Support: Expressions like (5 + 2) * 3 are not currently supported.
-- 🔣 No Operator Chaining: Complex expressions requiring multiple operator precedence beyond basic math may not work as expected (e.g., 2^3^2 is not grouped properly).
+- ❌ No Parentheses Support: Expressions like `(5 + 2) * 3` are not currently supported.
+- 🔣 No Operator Chaining: Complex expressions requiring multiple operator precedence beyond basic math may not work as expected (e.g., `2^3^2` is not grouped properly).
 - ⌛ No History Log: Past calculations are not stored or viewable once cleared.
 - 🧪 No Error Handling for Divide by Zero: While the logic is mostly safe, there's no specific user warning for division by zero errors.
 - 🔍 No Memory Storage: Lacks features like M+, M-, MR (commonly found in scientific calculators).
