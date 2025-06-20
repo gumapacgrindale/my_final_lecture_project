@@ -43,6 +43,7 @@ This activity introduces a new approach using **AWT-based GUI programming** in J
 
 ### 🧩 Event Handling with `ActionListener`
 - The `Submit` button triggers calculations using an **anonymous inner class**:
+  
   ```java
   btnSubmit.addActionListener(new ActionListener() {
       public void actionPerformed(ActionEvent actEvent) {
