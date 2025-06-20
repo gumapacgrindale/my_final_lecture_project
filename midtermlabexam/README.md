@@ -75,23 +75,23 @@ for(int i = 0; i < ticketCount; i++) {
 
 ## 💻 How It Works (Step-by-Step)
 1. The program displays a menu:
-- Add Ticket
-- Update Ticket Status
-- Show All Tickets
-- Generate Report
-- Exit
+      - Add Ticket
+      - Update Ticket Status
+      - Show All Tickets
+      - Generate Report
+      - Exit
 
 2. When the user adds a ticket:
-- They input a description and urgency level (Low / Medium / High).
-- The system saves it with a default status of "Pending".
+      - They input a description and urgency level (Low / Medium / High).
+      - The system saves it with a default status of "Pending".
 
 3. Tickets can later be updated to:
-- "In Progress"
-- "Resolved"
+      - "In Progress"
+      - "Resolved"
 
 4. The report option counts:
-- How many tickets are pending or in progress
-- How many tickets are fully resolved
+      - How many tickets are pending or in progress
+      - How many tickets are fully resolved
 
 ## 🧪 Sample Output
 ```
