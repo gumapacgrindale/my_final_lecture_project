@@ -3,7 +3,7 @@ Each folder contains:
 - A `.java` source file for the activity.
 - A `README.md` file that provides a comprehensive explanation of the code: what it does, what Java concepts are used, and how it works in practice.
 
-📌 **For full explanations, please refer to the individual README.md files inside each folder, or see the summary at the end for more compact descriptions of each activity.**
+📌 **For full explanations, please refer to the individual README.md files inside each folder, or see the summary at the end for compacted descriptions of each activity.**
 
 ---
 
