@@ -209,7 +209,7 @@ Full Name: Juan Dela Cruz
 Age: 21 years old
 Daily Salary: PHP 640.00
 ```	
-🔧 Real-World Use:
+### 🔧 Real-World Use:
 Introduces form-based interfaces found in real business software. Demonstrates how GUI input/output works, foundational for inventory apps, POS systems, or HR tools.
 #
 ### 🧾 Lab Activity 5 Summary
@@ -239,6 +239,41 @@ This activity demonstrates the creation of an interactive Quiz Application using
 ```
 Quiz Completed! Your Score: 2 out of 3
 ```
-🔧 Real-World Use:
+### 🔧 Real-World Use:
 Represents the logic used in e-learning systems, review centers, and online assessments. Combines user interaction with logical flow control, input validation, and result computation in a GUI environment.
 #
+### 🧾 Lab Activity 6 Summary
+This lab showcases a **To-Do List Manager** built using **Java Swing**, demonstrating how to build **multi-window GUI applications** with dynamic data handling using tables.
+
+### 🔑 Key Concepts:
+- **Swing GUI**: Uses `JFrame`, `JPanel`, `JTable`, `JTextField`, `JTextArea`, `JComboBox`, and `JButton`
+- **Table Management**: `JTable` and `DefaultTableModel` are used to store and display task records
+- **Modular Windows**: Separates the viewer window and task form window using multiple `JFrame` instances
+- **Form Validation**: Prevents submission of incomplete task details
+- **Dynamic Table Update**: Each submitted task is added in real-time to the main viewer
+
+### ⚙️ Process:
+
+1. Viewer window opens with a button: **Add Task**
+
+2. When clicked, it opens a form where the user fills in:
+	- Task Name
+	- Task Description
+	- Task Status (from dropdown)
+
+3. On clicking **Save Task**:
+	- Input is validated
+	- Task is added as a new row to the viewer’s task table
+	- Form closes
+
+### 🧪 Sample Output:
+```
++----------------+---------------------------+-------------+
+| Task Name      | Task Description          | Status      |
++----------------+---------------------------+-------------+
+| Java Project   | Finish calculator module  | Ongoing     |
+| Grocery List   | Buy eggs, milk, and rice  | Not Started |
++----------------+---------------------------+-------------+
+```
+### 🔧 Real-World Use:
+Simulates core features of productivity apps like Trello, Notion, or task schedulers. Teaches the backbone of **data entry**, **GUI form handling**, and **visual record display**, essential in many business apps.
