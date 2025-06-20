@@ -177,13 +177,10 @@ Simulates HR systems where inputs are validated and roles influence employment r
 This lab upgrades the previous employee system into a **Graphical User Interface (GUI)** using Java **AWT (Abstract Window Toolkit)**. It allows users to input employee data via text fields and shows results in a text area.
 
 ### 🔑 Key Concepts:
-Java AWT GUI: Uses components like `Frame`, `Panel`, `Label`, `TextField`, `TextArea`, and `Button`
-
-Event Handling: `ActionListener` detects when the user clicks "Submit" and triggers computations
-
-Input validation: Ensures all form fields are filled and checks for correct data types (e.g., `Integer.parseInt()` and `Double.parseDouble()`)
-
-Dynamic GUI Output: Displays results in a non-editable text area after calculations
+- Java AWT GUI: Uses components like `Frame`, `Panel`, `Label`, `TextField`, `TextArea`, and `Button`
+- Event Handling: `ActionListener` detects when the user clicks "Submit" and triggers computations
+- Input validation: Ensures all form fields are filled and checks for correct data types (e.g., `Integer.parseInt()` and `Double.parseDouble()`)
+- Dynamic GUI Output: Displays results in a non-editable text area after calculations
 
 ### ⚙️ Process:
 
