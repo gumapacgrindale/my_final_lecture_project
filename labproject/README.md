@@ -2,7 +2,7 @@
 
 ## 📌 Description
 
-This is a feature-rich calculator application developed using **Java Swing**. It provides a visually appealing GUI interface and supports both basic and advanced arithmetic operations. The calculator is designed to handle input precision and common usability patterns, simulating the behavior of real-world scientific and desktop calculators.
+This is a feature-rich calculator application developed using **Java Swing**. It provides a visually appealing GUI interface and supports both basic and advanced arithmetic operations. The calculator is designed to handle input precision and common usability patterns, simulating the behavior of real-world and desktop calculators.
 
 This lab project showcases the integration of GUI components, expression parsing, precision handling, and responsive design in Java.
 
