@@ -1,4 +1,4 @@
-# my_final_lecture_project
+# My Final Lecture Project
 Each folder contains:
 - A `.java` source file for the activity.
 - A `README.md` file that provides a comprehensive explanation of the code: what it does, what Java concepts are used, and how it works in practice.
