@@ -62,3 +62,93 @@ This compilation reflects my learning progress throughout the semester in **Comp
 Thank you for viewing my work! ⭐
 
 — **Grindale Gumapac**
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#
+### 🧾 Lab Activity 1 Summary
+This Java console application simulates a basic employee information system. It prompts the user to input their personal details and work hours, then calculates their daily salary.
+
+### 🔑 Key Concepts:
+- Scanner for user input
+- Data types: String, int, double
+- Basic arithmetic and salary computation
+- System.out.print and System.out.printf for formatted output
+
+### ⚙️ Process:
+
+1. User inputs: name, age, hours worked, hourly wage
+
+2. Program computes: dailyWage = hoursWorked * hourlyWage
+
+3. Output: Full name, age, and daily salary in PHP (formatted)
+
+### 🧪 Sample Output:
+Displays formatted employee details and computed salary.
+
+### 🔧 Real-World Use:
+Useful for small payroll calculations, academic practice, or as a basic payroll component in larger systems.
+#
+### 🧾 Lab Activity 2 Summary
+This program builds upon Lab 1 by adding more detailed salary computations and an estimate of years left until retirement. It calculates daily, weekly, monthly, gross yearly, and net yearly wages.
+
+🔑 Key Concepts:
+- Reuse of inputs: name, age, hours worked, hourly rate
+- Math functions: Math.abs() and Math.round()
+- Extended calculations (weekly × 5, monthly × 4, yearly × 12)
+- Net salary computation with tax and fixed deduction
+
+⚙️ Process:
+
+1. User inputs: name, age, hours worked, hourly wage
+
+2. Program calculates:
+
+3. Years to retirement (65 - age)
+
+4. Rounded daily salary
+
+5. Weekly, monthly, and gross yearly salary
+
+5. Net yearly salary: deducts 32% tax and PHP 1500 in benefits
+
+6. Outputs all results in formatted PHP currency
+
+🧪 Sample Output:
+Displays full name (in uppercase), age, years to retirement, and a breakdown of all salary types.
+
+🔧 Real-World Use:
+Ideal for simulations of basic payroll systems that estimate yearly earnings and handle tax deductions.
+#
