@@ -123,16 +123,12 @@ This program builds upon Lab 1 by adding **more detailed salary computations** a
 1. User inputs: name, age, hours worked, hourly wage
 
 2. Program calculates:
+	- Years to retirement (65 - age)
+	- Rounded daily salary
+	- Weekly, monthly, and gross yearly salary
+	- Net yearly salary: deducts 32% tax and PHP 1500 in benefits
 
-3. Years to retirement (65 - age)
-
-4. Rounded daily salary
-
-5. Weekly, monthly, and gross yearly salary
-
-5. Net yearly salary: deducts 32% tax and PHP 1500 in benefits
-
-6. Outputs all results in formatted PHP currency
+3. Outputs all results in formatted PHP currency
 
 ### 🧪 Sample Output:
 Displays full name (in uppercase), age, years to retirement, and a breakdown of all salary types.
