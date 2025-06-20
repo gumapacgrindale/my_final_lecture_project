@@ -112,13 +112,13 @@ Useful for small payroll calculations, academic practice, or as a basic payroll 
 ### 🧾 Lab Activity 2 Summary
 This program builds upon Lab 1 by adding **more detailed salary computations** and an estimate of **years left until retirement**. It calculates daily, weekly, monthly, gross yearly, and net yearly wages.
 
-🔑 Key Concepts:
+###🔑 Key Concepts:
 - Reuse of inputs: name, age, hours worked, hourly rate
 - Math functions: `Math.abs()` and `Math.round()`
 - Extended calculations (weekly × 5, monthly × 4, yearly × 12)
 - Net salary computation with tax and fixed deduction
 
-⚙️ Process:
+###⚙️ Process:
 
 1. User inputs: name, age, hours worked, hourly wage
 
@@ -134,16 +134,16 @@ This program builds upon Lab 1 by adding **more detailed salary computations** a
 
 6. Outputs all results in formatted PHP currency
 
-🧪 Sample Output:
+###🧪 Sample Output:
 Displays full name (in uppercase), age, years to retirement, and a breakdown of all salary types.
 
-🔧 Real-World Use:
+###🔧 Real-World Use:
 Ideal for simulations of basic payroll systems that estimate yearly earnings and handle tax deductions.
 #
 ### 🧾 Lab Activity 3 Summary
 This program enhances the Employee Information System by introducing **input validation** and **role-based categorization** using **conditional statements** like `if-else` and `switch`.
 
-🔑 Key Concepts:
+###🔑 Key Concepts:
 - Input validation using if-else (e.g., age limits and hours worked restrictions)
 - `return` used to exit the program early if invalid input is detected
 - `switch` statement to map numeric role codes (1-4) to role names
@@ -151,7 +151,7 @@ This program enhances the Employee Information System by introducing **input val
 
 Tax logic with `if-else` based on income threshold
 
-⚙️ Process:
+###⚙️ Process:
 
 1. User inputs: name, age, hours worked, hourly wage, and role code
 
@@ -167,16 +167,16 @@ Tax logic with `if-else` based on income threshold
 
 5. Displays all info with formatted output
 
-🧪 Sample Output:
+###🧪 Sample Output:
 Shows full name, position, age, years to retirement, and a detailed salary breakdown.
 
-🔧 Real-World Use:
+###🔧 Real-World Use:
 Simulates HR systems where inputs are validated and roles influence employment records. Introduces logic structure for filtering and controlling program flow.
 #
 ###🧾 Lab Activity 4 Summary
 This lab upgrades the previous employee system into a **Graphical User Interface (GUI)** using Java **AWT (Abstract Window Toolkit)**. It allows users to input employee data via text fields and shows results in a text area.
 
-🔑 Key Concepts:
+###🔑 Key Concepts:
 Java AWT GUI: Uses components like `Frame`, `Panel`, `Label`, `TextField`, `TextArea`, and `Button`
 
 Event Handling: `ActionListener` detects when the user clicks "Submit" and triggers computations
@@ -185,7 +185,7 @@ Input validation: Ensures all form fields are filled and checks for correct data
 
 Dynamic GUI Output: Displays results in a non-editable text area after calculations
 
-⚙️ Process:
+###⚙️ Process:
 
 1. GUI form collects:
 	- First name, last name, age, hours worked, hourly rate
@@ -200,8 +200,8 @@ Dynamic GUI Output: Displays results in a non-editable text area after calculati
 4. Displays:
 - Full name, age, and daily salary in formatted PHP output
 
-🧪 Sample Output (GUI):
-yaml
+###🧪 Sample Output (GUI):
+
 ```
 Copy
 Edit
@@ -215,7 +215,7 @@ Introduces form-based interfaces found in real business software. Demonstrates h
 ###🧾 Lab Activity 5 Summary
 This activity demonstrates the creation of an interactive Quiz Application using Java AWT, where users answer multiple-choice questions through a GUI interface.
 
-🔑 Key Concepts:
+###🔑 Key Concepts:
 - GUI Components: Uses `Frame`, `Label`, `Checkbox`, `CheckboxGroup`, and `Button` to build an interactive quiz layout
 - Event Handling: `ActionListener` processes user selections and manages navigation between questions
 - Array Usage:
@@ -225,7 +225,7 @@ This activity demonstrates the creation of an interactive Quiz Application using
 	- Each time the user clicks "Next", the next question and choices are loaded dynamically
 - Result Summary: Displays a final score after all questions are answered
 
-⚙️ Process:
+###⚙️ Process:
 
 1. App loads and shows the **first question** with four multiple-choice answers
 
@@ -235,8 +235,7 @@ This activity demonstrates the creation of an interactive Quiz Application using
 
 4. Moves to the next question or shows the final result after the last question
 
-🧪 Sample Output (Final Result):
-csharp
+###🧪 Sample Output (Final Result):
 ```
 Quiz Completed! Your Score: 2 out of 3
 ```
